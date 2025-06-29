@@ -1,0 +1,628 @@
+body
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+a
+{
+    text-decoration: none;
+
+}
+
+ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+img
+{
+    display: block;
+    max-width: 100%;
+
+}
+
+.superinfo
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    padding: 12px 200px;
+    margin: 0px auto;
+    justify-content: space-between;
+    gap: 20px;
+    background: #122ab2;
+    
+
+}
+
+.superinfo p
+{
+    margin: 0px;
+    font-size: 1rem;
+    color: #ffffff;
+
+}
+
+.cabecalho
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    padding: 16px 200px;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    background: #2c70ff;
+
+}
+
+.logo
+{
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.menu ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li a
+{
+    font-size: 1.25rem;
+    color: #ffffff;
+
+}
+
+.menu li a:hover
+{
+    color: #122ab2;
+
+}
+
+.introducao
+{
+    max-width: 960px;
+    padding: 60px 200px;
+    margin: 0px auto;
+
+}
+
+.introducao h1
+{
+    margin: 0px;
+    font-size: 3rem;
+    color: #222222;
+
+}
+
+.sobre
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    padding: 60px 200px;
+    border-top: solid 2px #2c70ff;
+    border-bottom: solid 2px #2c70ff;
+    margin: 0px auto;
+    gap: 16px;
+
+}
+
+.sobre-info
+{
+    flex: 2 1 300px;
+
+}
+
+.sobre-info h1
+{
+    margin-top: 0px;
+    margin-bottom: 32px;
+    font-size: 3rem;
+    color: #222222;
+
+}
+
+.sobre-info p
+{
+    margin: 0px;
+    font-size: 1.25rem;
+    color: #7c7c7c;
+
+}
+
+.sobre-info p + p
+{
+    margin-top: 16px;
+
+}
+
+.sobre-imagem
+{
+    flex: 1 1 150px;
+
+}
+
+.produtos
+{
+    max-width: 960px;
+    padding: 60px 200px;
+    margin: 0px auto;
+    
+}
+
+.produtos h1
+{
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-size: 3rem;
+    color: #222222;
+
+}
+
+.produtos-itens
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 12px;
+
+}
+
+.produto-purple, .produto-pink, .produto-blue
+{
+    flex: 1 1 190px;
+
+}
+
+.produto-purple h2, .produto-pink h2, .produto-blue h2
+{
+    padding: 48px 20px;
+    margin: 0px;
+    font-size: 3rem;
+    color: #a4a4a4;
+    background: #f7f7f7;
+
+}
+
+.produto-purple
+{
+    border-top: solid 8px #ae81ff
+
+}
+
+.produto-pink
+{
+    border-top: solid 8px #f9265e
+
+}
+
+.produto-blue
+{
+    border-top: solid 8px #66d9eb
+
+}
+
+.preco
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    padding: 60px 200px;
+    margin: 0px auto;
+    align-items: end;
+    gap: 16px;
+    background: #f7f7f7;
+
+}
+
+.preco-opcao
+{
+    flex: 1 1 200px;
+    padding: 20px;
+    border: solid 4px #ffffff;
+
+}
+
+.preco-opcao h2
+{
+    margin: 0px;
+    font-size: 3rem;
+    text-align: center;
+    color: #a4a4a4;
+
+}
+
+.preco-valor
+{
+    max-width: 200px;
+    padding: 12px;
+    border-top: solid 4px #ffffff;
+    border-bottom: solid 4px #ffffff;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.preco-valor sup
+{
+    font-size: 1.5rem;
+
+}
+
+.preco-vantagens
+{
+    max-width: 200px;
+    margin: 20px auto;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #7c7c7c;
+    
+}
+
+.preco-vantagens li
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.preco-vantagens li + li
+{
+    margin-top: 12px;
+
+}
+
+.preco-vantagens li::after
+{
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: #2c70ff;
+
+}
+
+.preco-opcao a
+{
+    display: block;
+    max-width: 200px;
+    padding: 12px 6px;
+    border: solid 4px #222222;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #222222;
+
+}
+
+.qualidade
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    padding: 60px 200px;
+    margin: 0px auto;
+    gap: 20px;
+
+}
+
+.qualidade-item
+{
+    flex: 1 1 280px;
+
+}
+
+.qualidade-item h2
+{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    align-items: center;
+    font-size: 2.25rem;
+    color: #a4a4a4;
+
+}
+
+.qualidade-item h2::before
+{
+    content: "";
+    display: block;
+    width: 8px;
+    height: 30px;
+    margin-right: 8px;
+
+}
+
+.qualidade-item:nth-of-type(3n+1) h2::before
+{
+    background: #ae81ff;
+
+}
+
+.qualidade-item:nth-of-type(3n+2) h2::before
+{
+    background: #f9265e;
+
+}
+
+.qualidade-item:nth-of-type(3n+3) h2::before
+{
+    background: #66d9eb;
+
+}
+
+.qualidade-item p
+{
+    max-width: 480px;
+    margin: 0px;
+    font-size: 1.25rem;
+    color: #7c7c7c;
+
+}
+
+.newsletter
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    padding: 60px 200px;
+    margin: 0px auto;
+    gap: 20px;
+    background: #f7f7f7;
+
+}
+
+.newsletter-info
+{
+    flex: 1;
+
+}
+
+.newsletter-info h1
+{
+    margin-top: 0px;
+    margin-bottom: 12px;
+    font-size: 3rem;
+    color: #a4a4a4;
+
+}
+
+.newsletter-info p
+{
+    max-width: 240px;
+    margin: 0px;
+    font-size: 1.25rem;
+    color: #7c7c7c;
+
+}
+
+.newsletter-formulario
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+    align-self: center;
+
+}
+
+.newsletter-formulario input
+{
+    flex: 3 1 200px;
+    padding: 12px;
+    border: solid 4px #2c70ff;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    background: #f7f7f7;
+    color: #7c7c7c;
+
+}
+
+.newsletter-formulario input:focus
+{
+    outline: none;
+
+}
+
+.newsletter-formulario button
+{
+    flex: 1 1 200px;
+    padding: 12px;
+    border: none;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.25rem;
+    font-weight: bold;
+    background: #2c70ff;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.rodape
+{
+    display: flex;
+    max-width: 960px;
+    padding: 32px 200px;
+    margin: 0px auto;
+    background: #2c70ff;
+
+}
+
+.rodape p
+{
+    flex: 1;
+    margin: 0px;
+    text-align: center;
+    font-size: 2.25rem;
+    color: #122ab2;
+
+}
+
+@media(max-width: 1040px)
+{
+    .superinfo
+    {
+        padding-left: 24px;
+        padding-right: 24px;
+
+    }
+
+    .cabecalho
+    {
+        padding-left: 24px;
+        padding-right: 24px;
+
+    }
+
+    .introducao
+    {
+        padding-left: 24px;
+        padding-right: 24px;
+
+    }
+
+    .sobre
+    {
+        padding-left: 24px;
+        padding-right: 24px;
+
+    }
+
+    .produtos
+    {
+        padding-left: 24px;
+        padding-right: 24px;
+
+    }
+
+    .preco
+    {
+        padding-left: 24px;
+        padding-right: 24px;
+
+    }
+
+    .qualidade
+    {
+        padding-left: 24px;
+        padding-right: 24px;
+
+    }
+
+    .newsletter
+    {
+        padding-left: 24px;
+        padding-right: 24px;
+
+    }
+
+    .rodape
+    {
+        padding-left: 24px;
+        padding-right: 24px;
+
+    }
+
+}
+
+@media(max-width: 700px)
+{
+    .superinfo
+    {
+        justify-content: center;
+        gap: 12px 20px;
+
+    }
+
+    .introducao h1
+    {
+        font-size: 2.5rem;
+
+    }
+
+    .sobre
+    {
+        gap: 24px 16px;
+
+    }
+
+    .sobre-info h1
+    {
+        font-size: 2.5rem;
+
+    }
+
+    .produtos h1, .produtos h2
+    {
+        font-size: 2.5rem;
+
+    }
+
+    .preco h2, .preco-valor
+    {
+        font-size: 2.5rem;
+
+    }
+
+    .newsletter-info h1
+    {
+        font-size: 2.5rem;
+
+    }
+
+    .newsletter-formulario button
+    {
+        font-size: 1.5rem;
+
+    }
+
+    .rodape p
+    {
+        font-size: 1.5rem;
+
+    }
+
+}
+
+@media(max-width: 570px)
+{
+    .cabecalho
+    {
+        justify-content: center;
+
+    }
+
+    .produtos-itens
+    {
+        gap: 20px;
+
+    }
+
+    .preco
+    {
+        flex-wrap: wrap-reverse;
+
+    }
+
+}
